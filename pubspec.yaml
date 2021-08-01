@@ -1,4 +1,4 @@
-name: m_app
+name: FlutterApp
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -61,18 +61,23 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: SFProText     
+    - family: SFProTextRegular     
       fonts:
-        - asset: assets/fonts/SFProTextRegular.ttf
-    - family: TextMedium     
-      fonts:
-        - asset: assets/fonts/SFProTextMedium.ttf
-    - family: TextBold     
-       fonts:
-         - asset: assets/fonts/SFProTextBold.ttf
-     - family: TextSemiBold     
-       fonts:
-         - asset: assets/fonts/SFProTextSemiBold.ttf
+        - asset: app_data/fonts/SFProTextRegular.ttf
+        - asset: app_data/fonts/SFProTextMedium.ttf
+        - asset: app_data/fonts/SFProTextSemiBold.ttf
+        - asset: fonts/TrajanPro_Bold.ttf
+
+
+    # - family: SFProText    
+    #    fonts:
+    #     - asset: app_data/fonts/SFProTextSemiBold.ttf
+    #      - asset: app_data/fonts/SFProTextBold.ttf
+
+  #  - family: SFProTextBold     
+  #     fonts:
+  #       - asset: app_data/fonts/SFProTextBold.ttf
+  #         weight: 700
 
 
 

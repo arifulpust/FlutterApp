@@ -20,10 +20,10 @@ class TitleText extends StatelessWidget {
     return Text(
       title,
       style: TextStyle(
-        fontSize: size,
-        color: textColor,
-        fontFamily: 'TextBold',
-      ),
+          fontSize: size,
+          color: textColor,
+          fontFamily: 'SFProTextRegular',
+          fontWeight: FontWeight.w500),
 
       // On pressing the raised button
     );
