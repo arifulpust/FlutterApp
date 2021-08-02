@@ -61,12 +61,13 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: SFProTextRegular     
+    - family: SFProText     
       fonts:
         - asset: app_data/fonts/SFProTextRegular.ttf
         - asset: app_data/fonts/SFProTextMedium.ttf
         - asset: app_data/fonts/SFProTextSemiBold.ttf
-        - asset: fonts/TrajanPro_Bold.ttf
+        - asset: app_data/fonts/SFProTextBold.ttf
+       
 
 
     # - family: SFProText    

@@ -1,6 +1,6 @@
 {
-    "name": "m_app",
-    "short_name": "m_app",
+    "name": "Flutter App",
+    "short_name": "Flutter App",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
